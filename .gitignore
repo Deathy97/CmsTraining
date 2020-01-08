@@ -1,3 +1,4 @@
 /target/
 .idea/
 CmsTraining.iml
+/src/main/resources/database.mv.db
