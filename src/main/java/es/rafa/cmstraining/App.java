@@ -1,7 +1,12 @@
 package es.rafa.cmstraining;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class App {
+
     public static void main(String[] args) {
-        System.out.println("Hola que hace");
+        SpringApplication.run(App.class);
     }
 }
